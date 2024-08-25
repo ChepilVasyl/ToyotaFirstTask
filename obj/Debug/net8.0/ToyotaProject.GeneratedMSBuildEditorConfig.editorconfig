@@ -1,0 +1,143 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ToyotaProject
+build_property.RootNamespace = ToyotaProject
+build_property.ProjectDir = /Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/vasil/RiderProjects/ToyotaProject/ToyotaProject
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Color/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sb3IvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Color/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sb3IvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Color/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sb3IvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Color/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sb3IvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Color/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sb3IvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationColor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbkNvbG9yL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationColor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbkNvbG9yL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationColor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbkNvbG9yL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationColor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbkNvbG9yL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationColor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbkNvbG9yL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationModel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbk1vZGVsL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationModel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbk1vZGVsL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationModel/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbk1vZGVsL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationModel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbk1vZGVsL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/ComplectationModel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxlY3RhdGlvbk1vZGVsL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Toyota/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG95b3RhL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Toyota/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG95b3RhL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Toyota/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG95b3RhL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Toyota/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG95b3RhL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Toyota/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG95b3RhL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v25yk676i2
