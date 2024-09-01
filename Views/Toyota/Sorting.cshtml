@@ -1,0 +1,45 @@
+@model ToyotaProject.Models.MyModels.PaginateViewModel
+<form method="get" id="sortForm">
+    <select name="sortCol" onchange="this.form.submit()">
+        @if (Model.SortColumn == "NameModel")
+            {
+                <option value="NameModel" selected>Name</option>
+            }
+        else
+            {
+                <option value="NameModel">Name</option>
+            }
+        
+        @if (Model.SortColumn == "Id")
+            {
+                <option value="Id" selected>Id</option>
+            }
+        else
+            {
+                <option value="Id">Id</option>
+            }
+    </select><br/>
+
+    <select name="sortDirec" onchange="this.form.submit()">
+        @if (Model.SortDirection == "asc")
+            {
+                <option value="asc" selected>asc</option>
+            }
+        else
+            {
+                <option value="asc">asc</option>
+            }
+
+        @if (Model.SortColumn == "desc")
+            {
+                <option value="desc" selected>desc</option>
+            }
+        else
+            {
+                <option value="desc">desc</option>
+            }
+    </select>
+    
+    <input type="hidden" name="pageNumber" value="@Model.PageNumber" />
+    <input type="hidden" name="pageSize" value="@Model.PageSize" />
+</form>

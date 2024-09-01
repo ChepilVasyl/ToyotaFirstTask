@@ -1,0 +1,27 @@
+@model ToyotaProject.Models.MyModels.PaginateViewModel
+
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        <!-- Кнопка "Попередня" -->
+        <li class="page-item @(Model.PageNumber <= 1 ? "disabled" : "")">
+            <a class="page-link" href="?pageNumber=@(Model.PageNumber - 1)&pageSize=@Model.PageSize&SortColumn=@Model.SortColumn&SortDirection=@Model.SortDirection" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+
+        <!-- Номери сторінок -->
+        @for (int i = 1; i <= Model.TotalPage; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                <a class="page-link" href="?pageNumber=@i&pageSize=@Model.PageSize&sortDirec=@Model.SortDirection&sortCol=@Model.SortColumn">@i</a>
+            </li>
+        }
+
+        <!-- Кнопка "Наступна" -->
+        <li class="page-item @(Model.PageNumber >= Model.TotalPage ? "disabled" : "")">
+            <a class="page-link" href="?pageNumber=@(Model.PageNumber + 1)&pageSize=@Model.PageSize&sortDirec=@Model.SortDirection&sortCol=@Model.SortColumn" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToyotaProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb4becfbfad052ebf40d3d9b33f32292527d240c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToyotaProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToyotaProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

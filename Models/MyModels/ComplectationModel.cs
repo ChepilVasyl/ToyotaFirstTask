@@ -11,6 +11,7 @@ public class ComplectationModel
     public string? NameComplectation { get; set; }//Назва комплектації
     [ForeignKey("Model")]
     public int ModelId { get; set; }//Зовнішній ключ
-    public ToyotaModel? Model { get; set; }//Навігаційна властивість
+
+    public ToyotaModel Model { get; set; } = new();//Навігаційна властивість
     public List<ComplectationColorModel> Colors { get; set; } = new();//Навігаційна властивість
 }

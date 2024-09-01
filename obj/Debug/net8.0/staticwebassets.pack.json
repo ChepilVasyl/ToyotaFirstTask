@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/Cars/Червоний Рав4.webp"
     },
     {
+      "Id": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/Cars/Чорна Корола.webp",
+      "PackagePath": "staticwebassets/Cars/Чорна Корола.webp"
+    },
+    {
       "Id": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/IconsColor/Бордовий.jpeg",
       "PackagePath": "staticwebassets/IconsColor/Бордовий.jpeg"
     },
@@ -47,6 +51,10 @@
     {
       "Id": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/IconsColor/Сірий.jpeg",
       "PackagePath": "staticwebassets/IconsColor/Сірий.jpeg"
+    },
+    {
+      "Id": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/IconsColor/Чорний.jpeg",
+      "PackagePath": "staticwebassets/IconsColor/Чорний.jpeg"
     },
     {
       "Id": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/css/site.css",

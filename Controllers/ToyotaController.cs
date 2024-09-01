@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -20,9 +21,33 @@ namespace ToyotaProject.Controllers
         }
 
         // GET: Toyota
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(
+            string sortCol="NameModel", string sortDirec="asc",
+            int pageSize = 3, int pageNumber = 1
+            )
         {
-            return View(await _context.ToyotaModels.ToListAsync());
+            var qwery = _context.ToyotaModels.AsQueryable();
+            qwery = sortCol switch
+            {
+                "Id" => sortDirec=="asc" ? qwery.OrderBy(c => c.Id):qwery.OrderByDescending(c => c.Id),
+                "NameModel" => sortDirec=="asc" ? qwery.OrderBy(c => c.NameModel):qwery.OrderByDescending(c => c.NameModel),
+                _ => sortDirec=="asc" ? qwery.OrderBy(c => c.NameModel):qwery.OrderByDescending(c => c.NameModel)
+            };
+            var countItems = await _context.ToyotaModels.CountAsync();
+            var rez = await qwery
+                .Skip((pageNumber - 1)*pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+            ViewData["paginateRez"] = new PaginateViewModel
+            {
+                PageSize = pageSize,
+                PageNumber = pageNumber,
+                SortColumn = sortCol,
+                SortDirection = sortDirec,
+                TotalItems = countItems,
+                TotalPage = (int)Math.Ceiling(countItems / (double)pageSize)
+            };
+            return View(rez);
         }
 
         // GET: Toyota/Details/5

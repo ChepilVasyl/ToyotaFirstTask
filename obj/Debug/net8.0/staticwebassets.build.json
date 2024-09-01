@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ma0L0jPqr/TckK5P9SxGzHZPr18c02P+9VX6Za/Y0R8=",
+  "Hash": "yhUonthSrA+WI3pSQcf8EgOA64/MsmyWtUKs73yRpfU=",
   "Source": "ToyotaProject",
   "BasePath": "_content/ToyotaProject",
   "Mode": "Default",
@@ -1290,6 +1290,25 @@
       "OriginalItemSpec": "wwwroot/Cars/Червоний Рав4.webp"
     },
     {
+      "Identity": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/Cars/Чорна Корола.webp",
+      "SourceId": "ToyotaProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/",
+      "BasePath": "_content/ToyotaProject",
+      "RelativePath": "Cars/Чорна Корола.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Cars/Чорна Корола.webp"
+    },
+    {
       "Identity": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/css/site.css",
       "SourceId": "ToyotaProject",
       "SourceType": "Discovered",
@@ -1440,6 +1459,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/IconsColor/Слонова кістка.jpeg"
+    },
+    {
+      "Identity": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/IconsColor/Чорний.jpeg",
+      "SourceId": "ToyotaProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/",
+      "BasePath": "_content/ToyotaProject",
+      "RelativePath": "IconsColor/Чорний.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/IconsColor/Чорний.jpeg"
     },
     {
       "Identity": "/Users/vasil/RiderProjects/ToyotaProject/ToyotaProject/wwwroot/js/site.js",
